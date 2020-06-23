@@ -22,7 +22,7 @@
 </head>
 <body class="board">
 	<!-- HTML for the box -->
-	<div class="box">?</div>
+	<div class="box">0</div>
 
 	<script>
 		(function(){
@@ -89,10 +89,10 @@
 				points += 1;
 				changeBoxText(points);
 				speedX += 3; 
-				if (speedX = + speedX) {
+				if (speedX < + speedX) {
 					speedX += 3; 
 				}
-				else if (speedX = - speedX) {
+				else if (speedX < - speedX) {
 					speedX -= 3;
 				}
 
